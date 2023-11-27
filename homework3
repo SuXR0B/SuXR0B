@@ -1,0 +1,109 @@
+***CSS***
+  *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: blueviolet;
+}
+
+nav{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    padding: 10px 50px;
+    list-style: none;
+}
+li{
+    margin: 0px 30px;
+    color: coral;
+}
+.naw button{
+    margin: 5px 10px;
+}
+.text{
+    width: 500px;
+    height: 500px;
+    padding: 100px;
+}
+h5{
+    margin: 50px;
+    color: aqua;
+}
+p{
+    margin: 30px;
+}
+button{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.glo{
+    display: flex;
+}
+.yel{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    top: 120px;
+    left: 1240px;
+    border-radius: 0px 30px 0px 0px;
+
+}
+.img1{
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    top: 150px;
+    left: 800px;
+    border-radius: 20px;
+}
+.img2{
+    position: absolute;
+    width: 200px;
+    height: 300PX;
+    border-radius: 10px;
+    top: 250px;
+    left:750px;
+    border-color: blanchedalmond;
+}
+h1{
+    color: azure;
+    font-weight: 900;
+}
+***************
+**HTML**
+      <div class="bac">
+        <nav>
+            <h1>EDUCATION</h1>
+            <ul>
+                <li>HOME</li>
+                <li>PRODUCT</li>
+                <li>TEACHING</li>
+                <li>CLUB</li>
+            </ul>
+            <h2>Login</h2>
+            <button>JOIN_US</button>
+        </nav>
+        <div class="glo">
+            <div class="text">
+                <h5>WELCOME</h5>
+                <h1>BEST LEARNING OPORTUNITIES</h1>
+                <p>WE know how large objects will act but thing on a small scale</p>
+                <button>GET QUEST NOW</button>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="img">
+                <div class="yel"></div>
+                <img class="img1" src="./ed.jpg" alt="">
+                <img class="img2" src="./EDU.jpg" alt="">
+            </div>
+        </div>
+    </div>
+  *********************************
