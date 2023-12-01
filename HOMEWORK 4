@@ -1,0 +1,114 @@
+HTML**********************************
+<div class="box">
+        <div class="n">
+            <nav>
+                <h2>WORLD</h2>
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SEVISE</li>
+                    <li>SECRENSHOT</li>
+                    <li>BLOG</li>
+                    <li>SERCH</li>
+                </ul>
+                <img src="./magnifying-glass.png" alt="SERCH">
+            </nav>
+        </div>
+        <div class="i">
+            <button id="o"><img id="a" src="./next — копия.png" alt="last"></button>
+            <button id="o"><img id="b" src="./next.png" alt="next"></button>
+        </div>
+        <div class="text">
+            <h1>BASIC TAMPLETE</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptas reprehenderit dolorem minima ipsum doloribusLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptas reprehenderit dolorem minima ipsum doloribus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptas reprehenderit dolorem minima ipsum doloribus</h4>
+            <button id="l">LEARN MORE</button>
+        </div>
+        <div class="next">
+            <img src="./down-right-arrow.png" alt="under">
+        </div>
+    </div>
+***********************************************************************************************
+**CSS**
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.box{
+    width: 100%;
+    height: 500px;
+    background-image: url(./images\ \(15\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+}
+ul{
+    width: 600px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+h2{
+    margin: 10px 20px;
+}
+.i{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+#a{
+    border-radius: 15px;
+}
+#b{
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+    position: absolute;
+    margin: 200px;
+    height: 300px;
+}
+#l{
+    padding: 20px 40px;
+    margin: 20px;
+    background-color: brown;
+    font-weight: 900;
+}
+h4{
+    margin: 20px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+.next{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 470px;
+    left: 50%;
+}
+#o{
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+****************************************************************
