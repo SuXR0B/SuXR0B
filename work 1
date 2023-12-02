@@ -1,0 +1,11 @@
+.three{
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(163, 82, 52);
+  transition-delay: 2s;
+  &:hover{
+    width: 700px;
+
+  }
+}
