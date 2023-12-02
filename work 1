@@ -1,11 +1,63 @@
-.three{
+  <div class="fist">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+  </div>
+
+**********
+*{
+  padding: 0;
+  margin: 0;
+}
+.fist{
+  width: 900px;
+  height: 900px;
+  margin: auto;
+  background-color: darkolivegreen;
+  position: relative;
+}
+
+.one{
+  width: 200px;
+  height: 60px;
+  background-color: coral;
+  transition-property: with;
+  transition-duration: 1.5s;
+  &:hover{
+    width: 700px;
+  }
+}
+.two{
   margin-top: 20px;
   width: 200px;
   height: 60px;
   background-color: rgb(163, 82, 52);
-  transition-delay: 2s;
+  transition: 1.2s;
   &:hover{
     width: 700px;
+  }
+}
 
+.three{
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(204, 73, 25);
+  transition-duration: 3s;
+  &:hover{
+    width: 700px;
+  }
+}
+
+.four{
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(102, 37, 13);
+  transition-timing-function: ease-in;
+  transition-duration: 2.1s;
+  &:hover{
+    width: 700px;
   }
 }
